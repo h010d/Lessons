@@ -1,0 +1,15 @@
+.container>* {
+    border: 3px dotted red;
+}
+
+section .container {
+    height: 120px;
+    width: 600px;
+    background-color: orchid;
+}
+
+footer .container>* {
+    display: inline;
+    border: 3px dotted red;
+    color: purple;
+}

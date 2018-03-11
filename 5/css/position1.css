@@ -1,0 +1,33 @@
+.banner {
+    border: 1px dashed #000;
+    width: 600px;
+    height: 300px;
+    position: relative;
+}
+
+.banner .picture {
+    width: 600px;
+    height: 300px;
+    background: #00ccff;
+    position: absolute;
+}
+
+.banner .controls {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 50px;
+}
+
+.banner .controls .btn {
+    background: #ffd800;
+    border: 0;
+    padding: 15px;
+    height: 50px;
+    width: 70px;
+}
+
+.banner .controls .btn-prev {}
+
+.banner .controls .btn-next {}

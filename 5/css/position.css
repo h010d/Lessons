@@ -1,0 +1,56 @@
+body {
+    height: 2000px;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+}
+
+.blue {
+    background: blue;
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    z-index: 5;
+}
+
+.orange {
+    background: orange;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+}
+
+.green {
+    background: green;
+    position: relative;
+    top: 50px;
+    left: -50px;
+    z-index: -1;
+}
+
+.red {
+    background: red;
+    position: relative;
+    top: -50px;
+    left: 120px;
+}
+
+.black {
+    background: black;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.white {
+    border: 1px solid #000;
+    /* Кроссбраузерное выравнивание блока по центру и горизонтали */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
