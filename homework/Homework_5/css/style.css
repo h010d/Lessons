@@ -1,6 +1,29 @@
+* {
+    border: 1px dashed #000;
+}
+
 .content {
-    color: yellow;
-    /* background-color: #000; */
-    width: 100%;
-    height: 20px;
+    width: 780px;
+    height: 390px;
+    color: red;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.price,
+.price_1,
+.price_2 {
+    display: inline;
+    margin: 25px auto;
+}
+
+.price_1 {
+    float: left;
+}
+
+.price_2 {}
+
+.price_3 {
+    float: right;
 }
