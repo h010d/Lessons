@@ -1,5 +1,5 @@
  * {
-     border: 1px dashed #000;
+     /* border: 1px dashed #000; */
      margin: 0;
      padding: 0;
      color: #b22222;
@@ -8,7 +8,7 @@
  
  .content {
      max-width: 960px;
-     height: 390px;
+     height: 400px;
      margin: 0 auto;
      font-size: 0;
      /* border: 1px dashed #000; */
@@ -16,7 +16,7 @@
  }
  
  .content .price {
-     height: 380px;
+     height: 395px;
      width: 25%;
      display: inline-block;
      vertical-align: top;
@@ -25,6 +25,7 @@
  }
  
  .price .heading {
+     margin-top: 10px;
      font-size: 18px;
      text-align: center;
      color: #ff0000;
@@ -36,7 +37,7 @@
      margin: 15px auto;
      width: 45%;
      background-color: #e7e7e7;
-     height: 3px;
+     height: 4px;
  }
  
  .price .text {
@@ -109,20 +110,23 @@
  .footer_block .footer_bottom {
      color: #000;
      font-size: 21px;
+     font-weight: 100;
  }
  
  .btn_block {
-     margin: 5px auto;
+     margin: 25px auto;
      /* width: 40%; */
      text-align: center;
      text-transform: uppercase;
-     width: 50px;
+     width: 50%;
  }
  
  .btn_block .btn {
      background: #ffd800;
      border-radius: 5px;
-     width: 45px;
+     color: white;
+     padding: 3px 20px;
+     border: 0;
  }
  /* .content .clearfix {
      clear: both;
