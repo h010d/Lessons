@@ -1,0 +1,191 @@
+         * {
+             /* border: 1px dashed #000; */
+             margin: 0;
+             padding: 0;
+             color: #b22222;
+         }
+         /* Content */
+         
+         .content {
+             max-width: 960px;
+             height: 420px;
+             margin: 0 auto;
+             font-size: 0;
+             /* border: 1px dashed #000; */
+             padding: 15px;
+         }
+         
+         .content .banner {
+             width: 78px;
+             height: 78px;
+             /* border: #ffd800 3px dashed; */
+             position: absolute;
+              top: 5px;
+             right: 0;
+             margin: auto;
+             z-index: 5;
+			 background: url(../images/Shape2.png);
+			 color: rgb(255, 255, 255);
+             font-size: 12px;
+             z-index: 3;
+             text-align: center;
+             vertical-align: text-bottom;
+         }
+         
+         .content .price {
+             height: 405px;
+             width: 25%;
+             display: inline-block;
+             vertical-align: top;
+             border: 3px solid #e7e7e7;
+             box-sizing: border-box;
+             transition: all 300ms ease-out;
+			 position: relative;
+			 margin: 10px 7px;
+         }
+         
+         .price .heading {
+             margin-top: 10px;
+             font-size: 18px;
+             text-align: center;
+             color: #ff0000;
+             text-transform: uppercase;
+             font-weight: 100;
+         }
+         
+         .price .border {
+             margin: 15px auto;
+             width: 45%;
+             background-color: #e7e7e7;
+             height: 4px;
+             transition: all 300ms ease-out;
+         }
+         
+         .price .text {
+             color: black;
+             font-size: 15px;
+             text-align: center;
+             font-weight: 100;
+             font-family: Tahoma;
+         }
+         
+         .price .centr_text {
+             margin: 0 auto;
+             width: 75%;
+             height: 150px;
+         }
+         
+         .price .centre_block {
+             margin: 0 auto;
+             width: 78%;
+             height: 50px;
+         }
+         
+         .centre_block .text_price_1 {
+             color: #000;
+             font-size: 18px;
+             text-align: left;
+             font-weight: 100;
+             display: inline;
+         }
+         
+         .centre_block .text_price_2 {
+             font-size: 18px;
+             display: inline;
+             font-weight: 300;
+         }
+         
+         .centre_block .text_price_3 {
+             font-size: 14px;
+             display: inline;
+         }
+         
+         .centre_block .old_color_price {
+             color: #567bd0;
+         }
+         
+/*          .content .price_1 {
+             margin: 10px 28px 10px 85px;
+         }
+         
+         .content .price_2 {
+             margin: 10px 7px;
+         }
+         
+         .content .price_3 {
+             margin: 10px 85px 10px 25px;
+         } */
+         
+         .footer_block {
+             width: 50%;
+             margin: 15px auto;
+             text-align: center;
+         }
+         
+         .footer_block .footer_top {
+             font-size: 35px;
+             color: #ff0000;
+             font-weight: 400;
+         }
+         
+         .footer .fix_row_3 {
+             max-height: 100px;
+         }
+         
+         .footer_block .footer_bottom {
+             color: #000;
+             font-size: 21px;
+             font-weight: 100;
+         }
+         
+         .btn_block {
+             margin: 20px auto;
+             /* width: 40%; */
+             text-align: center;
+             text-transform: uppercase;
+             width: 50%;
+         }
+         
+         .btn_block .btn {
+             background: #00c22e;
+             border-radius: 5px;
+             color: white;
+             padding: 3px 20px;
+             border: 0;
+             transition: all 300ms ease-out;
+         }
+         
+         .btn:hover,
+         .border:hover,
+         .price:hover {
+             cursor: pointer;
+             background-color: rgba(166, 233, 241, 0.3);
+         }
+         
+		 .price:hover .border{
+             background-color: rgba(166, 233, 241, 0.3);
+		 }
+		 
+         .btn_block .btn:hover {
+             background: #ff0000;
+         }
+         
+         .price .border:hover {}
+         
+         .content .price:hover {
+             border: 3px solid rgba(166, 233, 241, 0.3);
+             /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e4f5fc+75,a6e9f1+100&0.61+25,0.61+81,1+100 */
+             background: -moz-linear-gradient(top, rgba(228, 245, 252, 0.61) 25%, rgba(228, 245, 252, 0.61) 75%, rgba(213, 242, 249, 0.61) 81%, rgba(166, 233, 241, 1) 100%);
+             /* FF3.6-15 */
+             background: -webkit-linear-gradient(top, rgba(228, 245, 252, 0.61) 25%, rgba(228, 245, 252, 0.61) 75%, rgba(213, 242, 249, 0.61) 81%, rgba(166, 233, 241, 1) 100%);
+             /* Chrome10-25,Safari5.1-6 */
+             background: linear-gradient(to bottom, rgba(228, 245, 252, 0.61) 25%, rgba(228, 245, 252, 0.61) 75%, rgba(213, 242, 249, 0.61) 81%, rgba(166, 233, 241, 1) 100%);
+             /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+             filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#9ce4f5fc', endColorstr='#a6e9f1', GradientType=0);
+             /* IE6-9 */
+         }
+         
+         .content .clearfix {
+             clear: both;
+         }
+         /* Footer */

@@ -47,6 +47,7 @@
              border: 3px solid #e7e7e7;
              box-sizing: border-box;
              transition: all 300ms ease-out;
+             position: relative;
          }
          
          .price .heading {
@@ -166,6 +167,10 @@
          .border:hover,
          .price:hover {
              cursor: pointer;
+             background-color: rgba(166, 233, 241, 0.3);
+         }
+         
+         .price:hover .border {
              background-color: rgba(166, 233, 241, 0.3);
          }
          
