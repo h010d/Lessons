@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+/* Style for "head" */
+
+.main {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.header {}
+
+.head {
+    width: 960px;
+    height: 480px;
+    background-color: rgba(135, 169, 245, 1);
+    background-image: url("../img/layer-5.png");
+    position: absolute;
+}
+
+.rectangle {
+    width: 570px;
+    height: 481px;
+    background-image: url("../img/rectangle.png");
+    position: relative;
+}
+
+.content {
+    width: 816px;
+    height: 253px;
+    margin: 0 auto;
+}
+
+.block {
+    height: 207px;
+}
+
+.block__item {
+    width: 24%;
+    display: inline-block;
+}
+
+.par {
+    /* Style for "Передплати" */
+    margin-top: 0;
+    margin-left: 0;
+    width: 779px;
+    height: 27px;
+    color: #000000;
+    font-family: "PT Sans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}
