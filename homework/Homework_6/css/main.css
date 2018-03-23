@@ -1,184 +1,381 @@
-       @import url('https://fonts.googleapis.com/css?family=PT+Sans');
-       /* Style for "head" */
-       
-       .main {
-           width: 960px;
-           margin: 0 auto;
-       }
-       
-       .header {}
-       
-       .head {
-           width: 960px;
-           height: 480px;
-           background-color: rgba(135, 169, 245, 1);
-           background-image: url("../img/layer-5.png");
-           position: absolute;
-       }
-       
-       .rectangle {
-           width: 570px;
-           height: 481px;
-           background-image: url("../img/rectangle.png");
-           position: relative;
-       }
-       
-       .content {
-           width: 816px;
-           height: 253px;
-           margin: 0 auto;
-       }
-       
-       .block {
-           /* border: 3px dotted rgb(16, 8, 134); */
-           margin: 0 auto;
-       }
-       
-       .block__item {
-           width: 20%;
-           display: inline-block;
-           box-sizing: border-box;
-           vertical-align: top;
-           /* border: 2px dotted greenyellow; */
-       }
-       
-       .block__item_item1 {
-           height: 110px;
-           width: 110px;
-           margin: 0 auto;
-           background-image: url("../img/number1-color.png");
-       }
-       
-       .block__item_item2 {
-           height: 119px;
-           width: 121px;
-           margin: 0 auto;
-           background-image: url("../img/book-color.png");
-       }
-       
-       .block__item_item3 {
-           height: 127px;
-           width: 110px;
-           margin: 0 auto;
-           background-image: url("../img/pencil-color.png");
-       }
-       
-       .block__item_item4 {
-           height: 119px;
-           width: 110px;
-           margin: 0 auto;
-           background-image: url("../img/family-color.png");
-       }
-       
-       .butn {
-           width: 22px;
-           height: 22px;
-           background-color: #dbf8ff;
-           margin-top: 55px;
-           margin-left: 10px;
-           margin-right: 10px;
-           border-radius: 50%;
-           border: 0;
-       }
-       
-       .block__item_text {
-           /* width: 118px; */
-           height: 65px;
-           color: #000000;
-           font-family: "PT Sans";
-           font-size: 17px;
-           font-weight: 200;
-           line-height: 18px;
-           text-align: center;
-           margin: 10px auto;
-           padding: 5px;
-       }
-       
-       .block__item_text-3::after {
-           content: "*";
-           font-size: 20px;
-           position: relative;
-           top: -2px;
-           color: #ff0000;
-       }
-       
-       .block__girl {
-           height: 172px;
-       }
-       
-       .block__girl_rectangle-8 {
-           height: 140px;
-           background-color: #dbf8ff;
-       }
-       
-       .block__girl_rectangle-9 {
-           /* Style for "Rectangle" */
-           margin: 0 auto;
-           height: 70px;
-           background-color: #dbf8ff;
-           background-image: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
-       }
-       
-       .block__girl_rectangle_Layer_12_img {
-           width: 49px;
-           height: 19px;
-           background-image: url("../img/layer-12.png");
-           margin-top: 22px;
-           margin-left: 33px;
-       }
-       
-       .block__girl_rectangle_Layer_11_img {
-           width: 60px;
-           height: 27px;
-           background-image: url("../img/layer-11.png");
-           float: right;
-           margin-right: 23px;
-           margin-top: 34px;
-       }
-       
-       .block__girl_rectangle_girl_color_img {
-           /* Style for "Girl_Color" */
-           width: 320px;
-           height: 156px;
-           background-image: url("../img/girl-color.png");
-           margin-top: 16px;
-           margin-left: 48px;
-       }
-       
-       .block__girl_text {
-           float: right;
-           margin-right: 200px;
-           margin-top: -30px;
-       }
-       
-       .block__girl_text_item {
-           width: 380px;
-           height: 51px;
-           color: #87a9f5;
-           font-family: "PT Sans";
-           font-size: 17px;
-           font-weight: 700;
-           text-transform: uppercase;
-           margin: 0 auto;
-       }
-       
-       .block__girl_text_item_span {
-           color: #567bd0;
-       }
-       
-       .par {
-           margin: 0 auto;
-           width: 779px;
-           height: 27px;
-           color: #000000;
-           font-family: "PT Sans";
-           font-size: 20px;
-           font-weight: 700;
-           line-height: 24px;
-           text-transform: uppercase;
-       }
-       
-       .foot {
-           height: 100px;
-           background-color: darkorchid;
-       }
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic,cyrillic-ext,latin-ext');
+
+/* Style for "head" */
+
+* {
+    border: 1px solid red;
+}
+
+.main {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.header {}
+
+.head {
+    width: 960px;
+    height: 480px;
+    background-color: rgba(135, 169, 245, 1);
+    background-image: url("../img/layer-5.png");
+    position: absolute;
+}
+
+.rectangle {
+    width: 570px;
+    height: 481px;
+    background-image: url("../img/rectangle.png");
+    position: relative;
+}
+
+.content {
+    width: 816px;
+    height: 253px;
+    margin: 0 auto;
+}
+
+.block {
+    margin: 0 auto;
+}
+
+.block__item {
+    width: 20%;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    /* border: 2px dotted greenyellow; */
+}
+
+.block__item_item1 {
+    height: 110px;
+    width: 110px;
+    margin: 0 auto;
+    background-image: url("../img/number1-color.png");
+}
+
+.block__item_item2 {
+    height: 119px;
+    width: 121px;
+    margin: 0 auto;
+    background-image: url("../img/book-color.png");
+}
+
+.block__item_item3 {
+    height: 127px;
+    width: 110px;
+    margin: 0 auto;
+    background-image: url("../img/pencil-color.png");
+}
+
+.block__item_item4 {
+    height: 119px;
+    width: 110px;
+    margin: 0 auto;
+    background-image: url("../img/family-color.png");
+}
+
+.butn {
+    width: 22px;
+    height: 22px;
+    background-color: #dbf8ff;
+    margin-top: 55px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 0;
+}
+
+.block__item_text {
+    height: 65px;
+    color: #000000;
+    font-family: "PT Sans";
+    font-size: 17px;
+    font-weight: 200;
+    line-height: 18px;
+    text-align: center;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+.block__item_text-3::after {
+    content: "*";
+    font-size: 20px;
+    position: relative;
+    top: -2px;
+    color: #ff0000;
+}
+
+.block__girl {
+    height: 172px;
+}
+
+.block__girl_rectangle-8 {
+    height: 140px;
+    background-color: #dbf8ff;
+}
+
+.block__girl_rectangle-9 {
+    /* Style for "Rectangle" */
+    margin: 0 auto;
+    height: 70px;
+    background-color: #dbf8ff;
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
+}
+
+.block__girl_rectangle_Layer_12_img {
+    width: 49px;
+    height: 19px;
+    background-image: url("../img/layer-12.png");
+    margin-top: 22px;
+    margin-left: 33px;
+}
+
+.block__girl_rectangle_Layer_11_img {
+    width: 60px;
+    height: 27px;
+    background-image: url("../img/layer-11.png");
+    float: right;
+    margin-right: 23px;
+    margin-top: 34px;
+}
+
+.block__girl_rectangle_girl_color_img {
+    /* Style for "Girl_Color" */
+    width: 320px;
+    height: 156px;
+    background-image: url("../img/girl-color.png");
+    margin-top: 16px;
+    margin-left: 48px;
+}
+
+.block__girl_text {
+    float: right;
+    margin-right: 200px;
+    margin-top: -30px;
+}
+
+.block__girl_text_item {
+    width: 380px;
+    height: 51px;
+    color: #87a9f5;
+    font-family: "PT Sans";
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+.block__girl_text_item_span {
+    color: #567bd0;
+}
+
+.par {
+    margin: 0 auto;
+    width: 779px;
+    height: 27px;
+    color: #000000;
+    font-family: "PT Sans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+
+/* ============ PRICE ==================== */
+
+.content__price {
+    width: 810px;
+    height: 389px;
+    border: 1px dashed #000;
+    font-size: 0;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.content__price_item {
+    border: 3px solid #e7e7e7;
+    height: 389px;
+    width: 240px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    box-sizing: border-box;
+    ransition: all 300ms ease-out;
+}
+
+.content__price_item_heading {
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: #ff0000;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-family: "PT Sans";
+}
+
+.content__price_item_heading_border {
+    margin: 15px auto;
+    width: 108px;
+    background-color: #e7e7e7;
+    height: 5px;
+    transition: all 300ms ease-out;
+}
+
+.content__price_item_centr {
+    margin: 0 auto;
+    width: 75%;
+    height: 85px;
+}
+
+.content__price_item_centr_text {
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 100;
+    font-family: Tahoma;
+}
+
+.content__price_item_block {
+    margin: 0 auto;
+    width: 78%;
+    height: 50px;
+}
+
+.content__price_item_block_price_1 {
+    font-family: Tahoma;
+    font-size: 22px;
+    font-weight: 400;
+    color: #000;
+    /* font-size: 18px; */
+    text-align: left;
+    /* font-weight: 100; */
+    display: inline-block;
+    margin: 0 1px;
+}
+
+.content__price_item_block_price_2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #567bd0;
+    text-decoration: line-through #ff0000;
+    font-family: "PT Sans";
+    display: inline-block;
+    margin: 0px 1px;
+}
+
+.content__price_item_block_price_3 {
+    color: #567bd0;
+    font-family: "PT Sans";
+    font-weight: 700;
+    font-size: 16px;
+    display: inline-block;
+    margin: 0 1px;
+}
+
+.content__price_item_new_cost {
+    width: 91px;
+    height: 62px;
+    margin: -15px auto;
+    padding: 5px;
+    text-align: center;
+    box-sizing: border-box;
+    /* border: 4px dotted green; */
+}
+
+.content__price_item_new_cost_numb {
+    font-size: 50px;
+    color: #ff0000;
+    /* width: 91px; */
+    font-family: "PT Sans";
+    /* height: 44px; */
+    /* font-size: 60px; */
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 auto;
+    /* border: 2px solid black; */
+    text-align: center;
+}
+
+.content__price_item_new_cost_currency {
+    color: #000;
+    font-size: 21px;
+    font-family: "PT Sans";
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.content__price_item_btn_block {
+    margin: 65px auto;
+    text-align: center;
+    text-transform: uppercase;
+    width: 50%;
+}
+
+.content__price_item_btn_block_btn {
+    background: #00c22e;
+    border-radius: 5px;
+    color: white;
+    padding: 3px 20px;
+    border: 0;
+    transition: all 300ms ease-out;
+}
+
+.content__price_item_btn_block_btn:hover,
+.content__price_item_heading_border:hover,
+.content__price_item:hover {
+    cursor: pointer;
+    background-color: rgba(166, 233, 241, 0.3);
+}
+
+.content__price_item:hover .content__price_item_heading_border {
+    background-color: rgba(166, 233, 241, 0.3);
+}
+
+.content__price_item_btn_block_btn:hover {
+    background: #ff0000;
+}
+
+.content__price_item:hover {
+    border: 3px solid rgba(166, 233, 241, 0.3);
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e4f5fc+75,a6e9f1+100&0.61+25,0.61+81,1+100 */
+    background: -moz-linear-gradient(top, rgba(228, 245, 252, 0.61) 25%, rgba(228, 245, 252, 0.61) 75%, rgba(213, 242, 249, 0.61) 81%, rgba(166, 233, 241, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(228, 245, 252, 0.61) 25%, rgba(228, 245, 252, 0.61) 75%, rgba(213, 242, 249, 0.61) 81%, rgba(166, 233, 241, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(228, 245, 252, 0.61) 25%, rgba(228, 245, 252, 0.61) 75%, rgba(213, 242, 249, 0.61) 81%, rgba(166, 233, 241, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#9ce4f5fc', endColorstr='#a6e9f1', GradientType=0);
+    /* IE6-9 */
+}
+
+.content .clearfix {
+    clear: both;
+}
+
+.content__price_banner {
+    width: 78px;
+    height: 78px;
+    border: #ffd800 3px dashed;
+    position: absolute;
+    top: 5px;
+    right: 0;
+    margin: auto;
+    z-index: 5;
+    background: url(../images/Shape2.png);
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    z-index: 3;
+    text-align: center;
+    vertical-align: text-bottom;
+}
+
+
+/* ==================END PRICE========================= */
+
+.foot {
+    height: 100px;
+    background-color: darkorchid;
+}

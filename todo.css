@@ -1,0 +1,5 @@
+//TODO: разобраться со flex-box версткой
+max-width: 1280px;
+display:flex;
+justify-content: space-around;
+flex-wrap: wrap;
