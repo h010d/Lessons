@@ -39,6 +39,30 @@
     display: inline-block;
 }
 
+.block__item_item1 {
+    height: 110px;
+    width: 110px;
+    background-image: url("../img/number1-color.png");
+}
+
+.block__item_item2 {
+    height: 121px;
+    width: 119px;
+    background-image: url("../img/book-color.png");
+}
+
+.block__item_item3 {
+    height: 110px;
+    width: 127px;
+    background-image: url("../img/pencil-color.png");
+}
+
+.block__item_item4 {
+    height: 110px;
+    width: 119px;
+    background-image: url("../img/family-color.png");
+}
+
 .par {
     /* Style for "Передплати" */
     margin-top: 0;
