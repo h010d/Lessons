@@ -152,7 +152,6 @@
        }
        
        .block__girl_text_item {
-           /* Style for "���� �����" */
            width: 380px;
            height: 51px;
            color: #87a9f5;
@@ -164,12 +163,10 @@
        }
        
        .block__girl_text_item_span {
-           /* Text style for "�������� �" */
            color: #567bd0;
        }
        
        .par {
-           /* Style for "����������" */
            margin: 0 auto;
            width: 779px;
            height: 27px;
