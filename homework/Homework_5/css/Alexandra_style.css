@@ -19,9 +19,9 @@
              width: 78px;
              height: 78px;
              /* border: #ffd800 3px dashed; */
-             position: absolute;
-             top: 5px;
-             right: 0;
+             position: relative;
+             top: -431px;
+             right: -388px;
              margin: auto;
              z-index: 5;
              background: url(../images/Shape2.png);

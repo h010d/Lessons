@@ -187,7 +187,7 @@
 .content__price {
     width: 810px;
     height: 389px;
-    border: 1px dashed #000;
+    /* border: 1px dashed #000; */
     font-size: 0;
     margin: 0 auto;
     padding: 15px;
@@ -244,8 +244,8 @@
 
 .content__price_item_block_price_1 {
     font-family: Tahoma;
-    font-size: 22px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 700;
     color: #000;
     /* font-size: 18px; */
     text-align: left;
@@ -261,7 +261,7 @@
     text-decoration: line-through #ff0000;
     font-family: "PT Sans";
     display: inline-block;
-    margin: 0px 1px;
+    margin: 0 0;
 }
 
 .content__price_item_block_price_3 {
@@ -293,6 +293,7 @@
     font-weight: 700;
     text-transform: uppercase;
     margin: 0 auto;
+    margin-left: -10px;
     /* border: 2px solid black; */
     text-align: center;
 }
@@ -358,17 +359,30 @@
 .content__price_banner {
     width: 78px;
     height: 78px;
-    border: #ffd800 3px dashed;
-    position: absolute;
-    top: 5px;
-    right: 0;
-    margin: auto;
+    /* border: #ffd800 3px dashed; */
+    position: relative;
+    top: -431px;
+    right: -745px;
+    /* margin: auto; */
     z-index: 5;
-    background: url(../images/Shape2.png);
-    color: rgb(255, 255, 255);
-    font-size: 12px;
+    background: url("../img/shape-2.png");
+    /* color: rgb(255, 255, 255); */
+    /* font-size: 12px; */
     z-index: 3;
     text-align: center;
+    overflow: hidden;
+}
+
+.content__price_banner_text {
+    width: 70px;
+    height: 70px;
+    margin: 20px auto;
+    /* border: #ff00d4 3px dashed; */
+    color: #ffffff;
+    font-family: "PT Sans";
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
     vertical-align: text-bottom;
 }
 
@@ -376,6 +390,39 @@
 /* ==================END PRICE========================= */
 
 .foot {
-    height: 100px;
-    background-color: darkorchid;
+    height: 150px;
+}
+
+.foot__text::before {
+    content: "*";
+    font-size: 20px;
+    position: relative;
+    top: -8px;
+    color: #ff0000;
+}
+
+.foot__text {
+    margin: 10px;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+    font-family: "PT Sans";
+}
+
+.foot__link1 {
+    color: #898989;
+    font-family: Tahoma;
+    margin-left: 85px;
+}
+
+.foot__link2 {
+    width: 364px;
+    height: 17px;
+    color: #898989;
+    font-family: Tahoma;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: underline;
+    margin-left: 55px;
 }
