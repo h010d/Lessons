@@ -1,186 +1,187 @@
-                                                      @import url('https://fonts.googleapis.com/css?family=PT+Sans');
-                                                  /* Style for "head" */
-                                                  
-                                                  .main {
-                                                      width: 960px;
-                                                      margin: 0 auto;
-                                                  }
-                                                  
-                                                  .header {}
-                                                  
-                                                  .head {
-                                                      width: 960px;
-                                                      height: 480px;
-                                                      background-color: rgba(135, 169, 245, 1);
-                                                      background-image: url("../img/layer-5.png");
-                                                      position: absolute;
-                                                  }
-                                                  
-                                                  .rectangle {
-                                                      width: 570px;
-                                                      height: 481px;
-                                                      background-image: url("../img/rectangle.png");
-                                                      position: relative;
-                                                  }
-                                                  
-                                                  .content {
-                                                      width: 816px;
-                                                      height: 253px;
-                                                      margin: 0 auto;
-                                                  }
-                                                  
-                                                  .block {
-                                                      /* border: 3px dotted rgb(16, 8, 134); */
-                                                      margin: 0 auto;
-                                                  }
-                                                  
-                                                  .block__item {
-                                                      width: 20%;
-                                                      display: inline-block;
-                                                      box-sizing: border-box;
-                                                      vertical-align: top;
-                                                      /* border: 2px dotted greenyellow; */
-                                                  }
-                                                  
-                                                  .block__item_item1 {
-                                                      height: 110px;
-                                                      width: 110px;
-                                                      margin: 0 auto;
-                                                      background-image: url("../img/number1-color.png");
-                                                  }
-                                                  
-                                                  .block__item_item2 {
-                                                      height: 119px;
-                                                      width: 121px;
-                                                      margin: 0 auto;
-                                                      background-image: url("../img/book-color.png");
-                                                  }
-                                                  
-                                                  .block__item_item3 {
-                                                      height: 127px;
-                                                      width: 110px;
-                                                      margin: 0 auto;
-                                                      background-image: url("../img/pencil-color.png");
-                                                  }
-                                                  
-                                                  .block__item_item4 {
-                                                      height: 119px;
-                                                      width: 110px;
-                                                      margin: 0 auto;
-                                                      background-image: url("../img/family-color.png");
-                                                  }
-                                                  
-                                                  .butn {
-                                                      width: 22px;
-                                                      height: 22px;
-                                                      background-color: #dbf8ff;
-                                                      margin-top: 55px;
-                                                      margin-left: 10px;
-                                                      margin-right: 10px;
-                                                      border-radius: 50%;
-                                                      border: 0;
-                                                  }
-                                                  
-                                                  .block__item_text {
-                                                      /* width: 118px; */
-                                                      height: 65px;
-                                                      color: #000000;
-                                                      font-family: "PT Sans";
-                                                      font-size: 17px;
-                                                      font-weight: 200;
-                                                      line-height: 18px;
-                                                      text-align: center;
-                                                      margin: 10px auto;
-                                                      padding: 5px;
-                                                  }
-                                                  
-                                                  .block__item_text-3::after {
-                                                      content: "*";
-                                                      font-size: 20px;
-                                                      position: relative;
-                                                      top: -2px;
-                                                      color: #ff0000;
-                                                  }
-                                                  
-                                                  .block__girl {
-                                                      height: 172px;
-                                                  }
-                                                  
-                                                  .block__girl_rectangle-8 {
-                                                      height: 140px;
-                                                      background-color: #dbf8ff;
-                                                  }
-                                                  
-                                                  .block__girl_rectangle-9 {
-                                                      /* Style for "Rectangle" */
-                                                      margin: 0 auto;
-                                                      height: 70px;
-                                                      background-color: #dbf8ff;
-                                                      background-image: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
-                                                  }
-                                                  
-                                                  .block__girl_rectangle_Layer_12_img {
-                                                      width: 49px;
-                                                      height: 19px;
-                                                      background-image: url("../img/layer-12.png");
-                                                      margin-top: 22px;
-                                                      margin-left: 33px;
-                                                  }
-                                                  
-                                                  .block__girl_rectangle_Layer_11_img {
-                                                      width: 60px;
-                                                      height: 27px;
-                                                      background-image: url("../img/layer-11.png");
-                                                      float: right;
-                                                      margin-right: 23px;
-                                                      margin-top: 34px;
-                                                  }
-                                                  
-                                                  .block__girl_rectangle_girl_color_img {
-                                                      /* Style for "Girl_Color" */
-                                                      width: 320px;
-                                                      height: 156px;
-                                                      background-image: url("../img/girl-color.png");
-                                                      margin-top: 16px;
-                                                      margin-left: 48px;
-                                                  }
-                                                  
-                                                  .block__girl_text {
-                                                      float: right;
-                                                      margin-right: 200px;
-                                                      margin-top: -30px;
-                                                  }
-                                                  
-                                                  .block__girl_text_item {
-                                                      /* Style for "Адже дорос" */
-                                                      width: 380px;
-                                                      height: 51px;
-                                                      color: #87a9f5;
-                                                      font-family: "PT Sans";
-                                                      font-size: 17px;
-                                                      font-weight: 700;
-                                                      text-transform: uppercase;
-                                                      margin: 0 auto;
-                                                  }
-                                                  
-                                                  .block__girl_text_item_span {
-                                                      /* Text style for "Особливо б" */
-                                                      color: #567bd0;
-                                                  }
-                                                  
-                                                  .par {
-                                                      /* Style for "Передплати" */
-                                                      margin: 0 auto;
-                                                      width: 779px;
-                                                      height: 27px;
-                                                      color: #000000;
-                                                      font-family: "PT Sans";
-                                                      font-size: 20px;
-                                                      font-weight: 700;
-                                                      line-height: 24px;
-                                                      text-transform: uppercase;
-                                                  }
-                                                  
-                                                  .foot {
-                                                      height: 100px;
-                                                      background-color: darkorchid;
+       @import url('https://fonts.googleapis.com/css?family=PT+Sans');
+       /* Style for "head" */
+       
+       .main {
+           width: 960px;
+           margin: 0 auto;
+       }
+       
+       .header {}
+       
+       .head {
+           width: 960px;
+           height: 480px;
+           background-color: rgba(135, 169, 245, 1);
+           background-image: url("../img/layer-5.png");
+           position: absolute;
+       }
+       
+       .rectangle {
+           width: 570px;
+           height: 481px;
+           background-image: url("../img/rectangle.png");
+           position: relative;
+       }
+       
+       .content {
+           width: 816px;
+           height: 253px;
+           margin: 0 auto;
+       }
+       
+       .block {
+           /* border: 3px dotted rgb(16, 8, 134); */
+           margin: 0 auto;
+       }
+       
+       .block__item {
+           width: 20%;
+           display: inline-block;
+           box-sizing: border-box;
+           vertical-align: top;
+           /* border: 2px dotted greenyellow; */
+       }
+       
+       .block__item_item1 {
+           height: 110px;
+           width: 110px;
+           margin: 0 auto;
+           background-image: url("../img/number1-color.png");
+       }
+       
+       .block__item_item2 {
+           height: 119px;
+           width: 121px;
+           margin: 0 auto;
+           background-image: url("../img/book-color.png");
+       }
+       
+       .block__item_item3 {
+           height: 127px;
+           width: 110px;
+           margin: 0 auto;
+           background-image: url("../img/pencil-color.png");
+       }
+       
+       .block__item_item4 {
+           height: 119px;
+           width: 110px;
+           margin: 0 auto;
+           background-image: url("../img/family-color.png");
+       }
+       
+       .butn {
+           width: 22px;
+           height: 22px;
+           background-color: #dbf8ff;
+           margin-top: 55px;
+           margin-left: 10px;
+           margin-right: 10px;
+           border-radius: 50%;
+           border: 0;
+       }
+       
+       .block__item_text {
+           /* width: 118px; */
+           height: 65px;
+           color: #000000;
+           font-family: "PT Sans";
+           font-size: 17px;
+           font-weight: 200;
+           line-height: 18px;
+           text-align: center;
+           margin: 10px auto;
+           padding: 5px;
+       }
+       
+       .block__item_text-3::after {
+           content: "*";
+           font-size: 20px;
+           position: relative;
+           top: -2px;
+           color: #ff0000;
+       }
+       
+       .block__girl {
+           height: 172px;
+       }
+       
+       .block__girl_rectangle-8 {
+           height: 140px;
+           background-color: #dbf8ff;
+       }
+       
+       .block__girl_rectangle-9 {
+           /* Style for "Rectangle" */
+           margin: 0 auto;
+           height: 70px;
+           background-color: #dbf8ff;
+           background-image: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
+       }
+       
+       .block__girl_rectangle_Layer_12_img {
+           width: 49px;
+           height: 19px;
+           background-image: url("../img/layer-12.png");
+           margin-top: 22px;
+           margin-left: 33px;
+       }
+       
+       .block__girl_rectangle_Layer_11_img {
+           width: 60px;
+           height: 27px;
+           background-image: url("../img/layer-11.png");
+           float: right;
+           margin-right: 23px;
+           margin-top: 34px;
+       }
+       
+       .block__girl_rectangle_girl_color_img {
+           /* Style for "Girl_Color" */
+           width: 320px;
+           height: 156px;
+           background-image: url("../img/girl-color.png");
+           margin-top: 16px;
+           margin-left: 48px;
+       }
+       
+       .block__girl_text {
+           float: right;
+           margin-right: 200px;
+           margin-top: -30px;
+       }
+       
+       .block__girl_text_item {
+           /* Style for "���� �����" */
+           width: 380px;
+           height: 51px;
+           color: #87a9f5;
+           font-family: "PT Sans";
+           font-size: 17px;
+           font-weight: 700;
+           text-transform: uppercase;
+           margin: 0 auto;
+       }
+       
+       .block__girl_text_item_span {
+           /* Text style for "�������� �" */
+           color: #567bd0;
+       }
+       
+       .par {
+           /* Style for "����������" */
+           margin: 0 auto;
+           width: 779px;
+           height: 27px;
+           color: #000000;
+           font-family: "PT Sans";
+           font-size: 20px;
+           font-weight: 700;
+           line-height: 24px;
+           text-transform: uppercase;
+       }
+       
+       .foot {
+           height: 100px;
+           background-color: darkorchid;
+       }
