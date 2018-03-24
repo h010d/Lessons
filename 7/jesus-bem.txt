@@ -12,8 +12,7 @@ container
                             menu__link
                                 menu__description
                                 menu__title   
-                                
-                                container__slider container__fixed
+container__slider container__fixed
   slider
    slider__img
    slider__info
