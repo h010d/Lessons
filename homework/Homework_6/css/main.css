@@ -11,9 +11,9 @@
     margin: 0 auto;
 }
 
-.header {}
+.main__header {}
 
-.head {
+.main__header_head {
     width: 960px;
     height: 480px;
     background-color: rgba(135, 169, 245, 1);
@@ -21,10 +21,19 @@
     position: absolute;
 }
 
-.rectangle {
+.main__header_rectangle {
     width: 570px;
     height: 481px;
     background-image: url("../img/rectangle.png");
+    position: relative;
+}
+
+.main__header_book_img {
+    height: 429px;
+    width: 408px;
+    margin-top: -429px;
+    margin-left: 42px;
+    background-image: url("../img/book-slide.png");
     position: relative;
 }
 
