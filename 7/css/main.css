@@ -22,7 +22,7 @@
 body {
     font-family: 'HelveticaNeue', 'Arial';
     margin: 0;
-    background: url(../images/jesus.jpg) center top no-repeat;
+    background: url("../images/jesus.jpg") center top no-repeat;
 }
 
 .container {}
