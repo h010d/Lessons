@@ -200,6 +200,7 @@
     font-size: 0;
     margin: 0 auto;
     padding: 15px;
+    position: relative;
 }
 
 .content__price_item {
@@ -369,9 +370,9 @@
     width: 78px;
     height: 78px;
     /* border: #ffd800 3px dashed; */
-    position: relative;
-    top: -431px;
-    right: -745px;
+    position: absolute;
+    top: -27px;
+    right: -22px;
     /* margin: auto; */
     z-index: 5;
     background: url("../img/shape-2.png");
