@@ -1,0 +1,80 @@
+container
+    container__header                     ÝÌ
+        header                            Á
+            container__fixed
+                header__logo             ÝÌ
+                    logo                Á
+                        logo__link        Ý
+                            logo__img    Ý
+                header__menu            ÝÌ
+                    menu                Á
+                        menu__item
+                            menu__link
+                                menu__description
+                                menu__title
+    container__slider container__fixed
+            slider
+                slider__img
+                slider__info
+                    slider-info
+                        slider-info__heading
+                            slider-heading
+                                slider-heading__label
+                                slider-heading__text
+                        slider-info__controls
+                            slider-controls
+                                slider-controls__item
+                                    slider-controls__btn slider-controls__btn_current
+                slider__content
+                    slider-content
+                        slider-content__heading
+                        slider-content__text
+    container__layout container__fixed
+        layout
+            layout__col layout__col_width_33pc
+                layout-col
+                    layout-col__heading layout-col__heading_icon_zoom
+                    layout-col__text
+                    layout-col__link
+            layout__col layout__col_width_33pc
+                layout-col
+                    layout-col__heading layout-col__heading_icon_star
+                    layout-col__text
+                    layout-col__link
+            layout__col
+                layout-col layout__col_width_33pc
+                    layout-col__heading layout-col__heading_icon_chat
+                    layout-col__text
+                    layout-col__link
+    container__works container__fixed
+        works
+            works__heading
+                works__heading-text
+        works__layout
+            layout
+                layout__col
+                    layout-col
+                        layout-col__img
+                        layout-col__heading 
+                        layout-col__text
+                        layout-col__link
+                layout__col 
+                    layout-col
+                        layout-col__img
+                        layout-col__heading 
+                        layout-col__text
+                        layout-col__link
+                layout__col
+                    layout-col
+                        layout-col__img
+                        layout-col__heading 
+                        layout-col__text
+                        layout-col__link
+    container__footer
+        footer
+            container__fixed
+                footer__copyright       ÝÌ
+                    copyright            Á
+                footer__dev             ÝÌ
+                    developers            Á
+                        
