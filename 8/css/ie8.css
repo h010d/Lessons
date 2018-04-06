@@ -1,0 +1,11 @@
+body {
+    background: red;
+}
+
+img {
+    border: 0;
+}
+
+.header {
+    border-top: 7px solid #ececec;
+}

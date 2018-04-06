@@ -5,23 +5,28 @@
     <title>шаблон</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/main.css">
+    <!--[if IE 8]>
+    <link rel="stylesheet" href=“css/ie8.css”>
+    <script src="scripts/html5fix.js"></script>
+    <![endif]-->
+
 </head>
 
 <body>
     <div class="container">
         <div class="container__header">
-            <div class="header">
+            <header class="header">
                 <div class="container__fixed">
                     <div class="header__logo">
                         <div class="logo">
                             <a href="#" class="logo__link">Blitz</a>
                         </div>
                     </div>
-                    <div class="header__menu">
+                    <nav class="header__menu">
                         <ul class="menu">
                             <li class="menu__item menu__item_current">
                                 <a href="#" class="menu__link">
-                                    <span class="menu__description">Homepage</span>
+                                    <span class="menu__description menu__description_current">Homepage</span>
                                     <span class="menu__title">HOME</span>
                                 </a>
                             </li>
@@ -50,10 +55,10 @@
                                 </a>
                             </li>
                         </ul>
-                    </div>
+                    </nav>
                     <div class="container__clearfix"></div>
                 </div>
-            </div>
+            </header>
         </div>
         <div class="container__slider container__fixed">
             <div class="slider">
@@ -85,92 +90,94 @@
                 </div>
             </div>
         </div>
-        <div class="container__layout container__fixed">
-            <div class="layout">
-                <div class="layout__col layout__col_width_33pc">
-                    <div class="layout-col">
-                        <h2 class="layout-col__heading layout-col__heading_icon_zoom"><span class="layout-col__heading-text">Check Out OUR <br>latest PROJECTS</span></h2>
-                        <p class="layout-col__text">Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum
-                            iaculis. Aenean sodales nibh non lectus tempor a interdum justo ultricies.</p>
-                        <a href="#" class="layout-col__link">FIND OUT MORE</a>
+        <main class="container__content">
+            <div class="container__layout container__fixed">
+                <section class="layout">
+                    <div class="layout__col layout__col_width_30pc">
+                        <article class="layout-col">
+                            <h2 class="layout-col__heading layout-col__heading_icon_zoom"><span class="layout-col__heading-text">Check Out OUR <br>latest PROJECTS</span></h2>
+                            <p class="layout-col__text">Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum
+                                iaculis. Aenean sodales nibh non lectus tempor a interdum justo ultricies.</p>
+                            <a href="#" class="layout-col__link">FIND OUT MORE</a>
+                        </article>
                     </div>
-                </div>
-                <div class="layout__col layout__col_width_33pc">
-                    <div class="layout-col">
-                        <h2 class="layout-col__heading layout-col__heading_icon_star"><span class="layout-col__heading-text">Guarantee  5  STar <br>Quality Work</span></h2>
-                        <p class="layout-col__text">Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum
-                            iaculis. Aenean sodales nibh non lectus tempor a interdum justo ultricies.</p>
-                        <a href="#" class="layout-col__link">FIND OUT MORE</a>
+                    <div class="layout__col layout__col_width_30pc">
+                        <article class="layout-col">
+                            <h2 class="layout-col__heading layout-col__heading_icon_star"><span class="layout-col__heading-text">Guarantee  5  STar <br>Quality Work</span></h2>
+                            <p class="layout-col__text">Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum
+                                iaculis. Aenean sodales nibh non lectus tempor a interdum justo ultricies.</p>
+                            <a href="#" class="layout-col__link">FIND OUT MORE</a>
+                        </article>
                     </div>
-                </div>
-                <div class="layout__col layout__col_width_33pc">
-                    <div class="layout-col">
-                        <h2 class="layout-col__heading layout-col__heading_icon_chat"><span class="layout-col__heading-text">Stay connected  by <br>reading  the  blog</span></h2>
-                        <p class="layout-col__text">Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum
-                            iaculis. Aenean sodales nibh non lectus tempor a interdum justo ultricies.</p>
-                        <a href="#" class="layout-col__link">FIND OUT MORE</a>
+                    <div class="layout__col layout__col_width_30pc">
+                        <article class="layout-col">
+                            <h2 class="layout-col__heading layout-col__heading_icon_chat"><span class="layout-col__heading-text">Stay connected  by <br>reading  the  blog</span></h2>
+                            <p class="layout-col__text">Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum
+                                iaculis. Aenean sodales nibh non lectus tempor a interdum justo ultricies.</p>
+                            <a href="#" class="layout-col__link">FIND OUT MORE</a>
+                        </article>
                     </div>
+                </section>
+            </div>
+            <div class="container__works container__fixed">
+                <div class="works">
+                    <h2 class="works__heading">
+                        <span class="works__heading-text">My  latest  work</span>
+                    </h2>
+                    <section class="layout">
+                        <article class="layout__col">
+                            <div class="layout-col">
+                                <img src="images/works/img_1.png" alt="" class="layout-col__img">
+                                <h2 class="layout-col__heading">Vallarta Brochure</h2>
+                                <p class="layout-col__text">Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum.</p>
+                                <a href="#" class="layout-col__link">View  project</a>
+                            </div>
+                        </article>
+                        <article class="layout__col">
+                            <div class="layout-col">
+                                <img src="images/works/img_2.png" alt="" class="layout-col__img">
+                                <h2 class="layout-col__heading">Photoshop tutorial</h2>
+                                <p class="layout-col__text">Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum.</p>
+                                <a href="#" class="layout-col__link">View  project</a>
+                            </div>
+                        </article>
+                        <article class="layout__col">
+                            <div class="layout-col">
+                                <img src="images/works/img_3.png" alt="" class="layout-col__img">
+                                <h2 class="layout-col__heading">Business cards</h2>
+                                <p class="layout-col__text">Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum.</p>
+                                <a href="#" class="layout-col__link">View  project</a>
+                            </div>
+                        </article>
+                        <article class="layout__col">
+                            <div class="layout-col">
+                                <img src="images/works/img_4.png" alt="" class="layout-col__img">
+                                <h2 class="layout-col__heading">Website design</h2>
+                                <p class="layout-col__text">Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum.</p>
+                                <a href="#" class="layout-col__link">View  project</a>
+                            </div>
+                        </article>
+                    </section>
                 </div>
             </div>
-        </div>
-        <div class="container__works container__fixed">
-            <div class="works">
-                <h2 class="works__heading">
-                    <span class="works__heading-text">My  latest  work</span>
-                </h2>
-                <div class="layout">
-                    <div class="layout__col">
-                        <div class="layout-col">
-                            <img src="images/works/img_1.png" alt="" class="layout-col__img">
-                            <h2 class="layout-col__heading">Vallarta Brochure</h2>
-                            <p class="layout-col__text">Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum.</p>
-                            <a href="#" class="layout-col__link">View  project</a>
-                        </div>
-                    </div>
-                    <div class="layout__col">
-                        <div class="layout-col">
-                            <img src="images/works/img_2.png" alt="" class="layout-col__img">
-                            <h2 class="layout-col__heading">Photoshop tutorial</h2>
-                            <p class="layout-col__text">Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum.</p>
-                            <a href="#" class="layout-col__link">View  project</a>
-                        </div>
-                    </div>
-                    <div class="layout__col">
-                        <div class="layout-col">
-                            <img src="images/works/img_3.png" alt="" class="layout-col__img">
-                            <h2 class="layout-col__heading">Business cards</h2>
-                            <p class="layout-col__text">Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum.</p>
-                            <a href="#" class="layout-col__link">View  project</a>
-                        </div>
-                    </div>
-                    <div class="layout__col">
-                        <div class="layout-col">
-                            <img src="images/works/img_4.png" alt="" class="layout-col__img">
-                            <h2 class="layout-col__heading">Website design</h2>
-                            <p class="layout-col__text">Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum.</p>
-                            <a href="#" class="layout-col__link">View  project</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </main>
         <div class="container__footer">
-            <div class="footer">
+            <footer class="footer">
                 <div class="container__fixed container__flex">
                     <div class="footer__place">
-                        <div class="foter-info foter-info_copyright">All Content Copyright 2018 - <strong>Blitz</strong> . All Rights Reserved. </div>
+                        <div class="foter-info foter-info_copyright">All Content Copyright <time> 2018</time> - <strong>Blitz</strong> . All Rights Reserved. </div>
                     </div>
                     <div class="footer__place">
                         <div class="foter-info foter-info_developers">Site Developed by <strong>Best PSD Freebies</strong> </div>
                     </div>
                 </div>
-            </div>
+            </footer>
         </div>
     </div>
     <script>
-        window.onbeforeunload = function() {
-            return false;
-        }
+        // window.onbeforeunload = function() {
+        // return false;
+        // }
     </script>
 </body>
 

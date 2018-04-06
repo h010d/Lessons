@@ -6,7 +6,6 @@
     font-style: normal;
 }
 
-//TODO: найти проблему
 @font-face {
     font-family: 'BebasNeue';
     src: url('fonts/BebasNeue_Regular.eot');
@@ -20,19 +19,10 @@
     src: url('fonts/HelveticaNeue.ttf');
 }
 
-header,
-nav,
-section,
-article,
-main,
-footer {
-    display: block;
-}
-
 body {
     font-family: 'HelveticaNeue', 'Arial';
     margin: 0;
-    background: url("../images/textures/main.png");
+    /* background: url(../images/jesus.jpg) center top no-repeat; */
 }
 
 .container {}
@@ -44,7 +34,7 @@ body {
 .container__header {}
 
 .header {
-    border-top: 7px solid rgba(232, 232, 232, 0.5);
+    border-top: 7px solid #e8e8e8;
 }
 
 .container__fixed {
@@ -95,11 +85,11 @@ body {
 
 .menu__item_current {}
 
-.menu__description_current::before {
-    content: url(../images/icons/arrow-down.png);
+.menu__link::before {
+    content: url("../images/icons/arrow-down.png");
     text-align: center;
     display: block;
-    margin: -45px 0 27px 0;
+    margin: -45 0 27 0;
 }
 
 .menu__link {
@@ -108,15 +98,17 @@ body {
     font-weight: bold;
 }
 
-.menu__description {
+.menu__description_current {
     color: #a5a5a5;
     display: block;
     font-size: 15px;
+    /*! font-weight: bold; */
     letter-spacing: 1px;
     word-spacing: -1px;
 }
 
 .menu__title {
+    /*! color: red; */
     font-size: 25px;
     line-height: 26px;
     letter-spacing: 1px;
@@ -220,13 +212,13 @@ body {
 }
 
 .slider-content::before {
-    content: url(../images/icons/arrow-up.png);
+    content: url("../images/icons/arrow-up.png");
     position: absolute;
     top: -17px;
-    left: 0;
-    right: 0;
     margin: auto;
     width: 22px;
+    left: 0;
+    right: 0;
 }
 
 .slider-content__heading {
@@ -242,7 +234,7 @@ body {
 }
 
 .container__layout {
-    margin-top: 49px;
+    margin-top: 52px;
 }
 
 .layout {
@@ -262,16 +254,14 @@ body {
 
 .layout-col {}
 
-.layout-col__heading {
-    margin-bottom: 22px;
-}
+.layout-col__heading {}
 
 .layout-col__heading_icon_zoom {}
 
 .layout-col__heading_icon_zoom::before,
 .layout-col__heading_icon_star::before,
 .layout-col__heading_icon_chat::before {
-    margin: 4px 33px 0 5px;
+    margin: 0 33px 0 5px;
     display: inline-block;
     vertical-align: top;
 }
@@ -304,22 +294,16 @@ body {
 
 .layout-col__heading-text {
     display: inline-block;
-    line-height: 25px;
 }
 
-.layout-col__text {
-    font-size: 12px;
-    line-height: 18px;
-    margin-left: 5px;
-    margin-bottom: 15px;
-}
+.layout-col__text {}
 
 .layout-col__link {
     font-family: BebasNeue;
     font-size: 14px;
     font-weight: bold;
-    color: #474747;
     text-decoration: none;
+    color: #474747;
 }
 
 .layout-col__link:hover {
@@ -327,8 +311,8 @@ body {
 }
 
 .layout-col__link::before {
-    content: url(../images/icons/more.png);
-    margin: 0 10px 0 5px;
+    content: url("../images/icons/more.png");
+    margin-right: 10px;
 }
 
 .container__works {}
@@ -336,21 +320,20 @@ body {
 .works {}
 
 .works__heading {
-    background: url(../images/textures/lines.png) repeat-x;
+    background: url("../images/textures/lines.png") repeat-x;
     text-align: center;
 }
 
 .works__heading-text {
     background: #fff;
-    padding: 0 28px;
+    padding: 28px;
     font-family: BebasNeue;
-    font-size: 25px;
     color: #474747;
+    font-size: 23px;
+    font-weight: 700;
 }
 
 .works__layout {}
-
-.container__footer {}
 
 .footer {
     background: #f7f7f7 url("../images/textures/lines1.png") repeat-x;
@@ -359,17 +342,26 @@ body {
 
 .container__flex {
     display: flex;
-    justify-content: space-between;
     height: 100px;
+    justify-content: space-between;
 }
 
 .footer__place {
+    justify-content: flex-start;
     margin: auto 0;
 }
 
-.footer-info {
+.foter-info {
     color: #9b9b9b;
     font-size: 12px;
     font-weight: 400;
     line-height: 18px;
+    align-self: center;
 }
+
+.footer__dev {
+    justify-content: flex-end;
+    margin: auto 0;
+}
+
+.developers {}
