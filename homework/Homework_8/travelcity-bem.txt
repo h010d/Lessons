@@ -1,0 +1,54 @@
+container 
+	container__header
+		header 					
+			header__logo			
+				logo				div
+					logo__headline 	h1
+					logo__link		a
+	container__menubar 
+		menubar container container_shadowBg
+			menubar__menu
+				menu
+					menu__item menu__item_current
+						menu__link
+			menubar__search
+				search				form
+					search__textfield
+					search__btn
+	container__slider
+		slider container container_shadowBg
+			slider__slides
+				slides
+					slides__image
+	container__articles
+		articles
+			articles__article
+				article
+					article__image			img
+					article__description	p
+			articles__article
+				article
+					article__image
+					article__description
+			articles__article
+				article
+					article__image
+					article__description
+			articles__article
+				article
+					article__image
+					article__description		
+	container__content
+		content
+			content__image
+			content__info
+				content__header
+				content__text
+				content__link
+	container__footer
+		footer
+			footer__footer-menu				DIV	
+				footer-menu					UL
+					footer-menu__item		LI
+						footer-menu__link	A
+					
