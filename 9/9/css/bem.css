@@ -1,0 +1,45 @@
+.container { 
+	max-width: 1600px;
+	margin: 0 auto;
+} 
+
+.container__content { } 
+
+.content { 
+	background: #f2f2f2;
+	padding: 15px;
+} 
+
+.content__heading {
+	background: #515e90;
+	padding: 10px;
+	margin: 0 0 10px;
+	color: #f3f3f3;
+} 
+
+.content__articles {
+} 
+
+.articles { 
+	background: #fff;
+} 
+/* элемент место */
+.articles__article { 
+	display: inline-block;
+	vertical-align: top;
+	width: 33%;
+} 
+/* блок */
+.article { 
+	background: #dfdfdf;
+	padding: 15px;
+}
+/* модификатор на блок */
+.article_main{
+	background: #d0d4e1;
+}
+/* атомарный элемент */
+.article__heading { } 
+
+.article__text { } 
+

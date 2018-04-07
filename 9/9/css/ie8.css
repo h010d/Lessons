@@ -1,0 +1,30 @@
+body{
+	/* background: red; */
+}
+
+img{
+	border: 0;
+}
+
+.header{
+	border-top: 7px solid #ececec;
+	outline: 1px solid red;
+	height: 50px;
+	width: 100%;
+}
+
+.layout__col{
+	display: inline-block;
+}
+
+.layout__col_margin{
+	margin: 0 40px;
+}
+
+.footer__copyright{
+	float: left;
+}
+
+.footer__info{
+	float: right;
+}
