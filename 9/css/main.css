@@ -28,6 +28,10 @@ footer {
     display: block;
 }
 
+html {
+    font-size: 10px;
+}
+
 body {
     font-family: 'HelveticaNeue', 'Arial';
     margin: 0;
@@ -58,7 +62,7 @@ body {
 
 .logo {
     font-family: Pacifico;
-    font-size: 42px;
+    font-size: 4.2rem;
 }
 
 .logo__link {
@@ -110,14 +114,14 @@ body {
 .menu__description {
     color: #a5a5a5;
     display: block;
-    font-size: 15px;
+    font-size: 1.5rem;
     letter-spacing: 1px;
     word-spacing: -1px;
 }
 
 .menu__title {
-    font-size: 25px;
-    line-height: 26px;
+    font-size: 2.5rem;
+    line-height: 2.6rem;
     letter-spacing: 1px;
 }
 
@@ -166,12 +170,12 @@ body {
 
 .slider-heading__label {
     color: #9a9a9a;
-    font-size: 14px;
+    font-size: 1.4rem;
     display: block;
 }
 
 .slider-heading__text {
-    font-size: 20px;
+    font-size: 2.0rem;
     font-family: BebasNeue;
     color: #ffffff;
 }
@@ -231,12 +235,12 @@ body {
 .slider-content__heading {
     font-family: BebasNeue;
     margin: 0 0 7px;
-    font-size: 20px;
+    font-size: 2.0rem;
 }
 
 .slider-content__text {
     margin: 0;
-    font-size: 12px;
+    font-size: 1.2rem;
     line-height: 15px;
 }
 
@@ -297,7 +301,7 @@ body {
 
 .layout-col__heading {
     font-family: BebasNeue;
-    font-size: 23px;
+    font-size: 2.3rem;
     color: #464646;
 }
 
@@ -307,7 +311,7 @@ body {
 }
 
 .layout-col__text {
-    font-size: 12px;
+    font-size: 1.2rem;
     line-height: 18px;
     margin-left: 5px;
     margin-bottom: 15px;
@@ -315,7 +319,7 @@ body {
 
 .layout-col__link {
     font-family: BebasNeue;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: bold;
     color: #474747;
     text-decoration: none;
@@ -343,7 +347,7 @@ body {
     background: #fff;
     padding: 0 28px;
     font-family: BebasNeue;
-    font-size: 25px;
+    font-size: 2.5rem;
     color: #474747;
 }
 
